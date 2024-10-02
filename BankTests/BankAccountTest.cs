@@ -51,6 +51,9 @@ public class BankAccountTests
         {
             // Assert
             StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
+            return;
         }
+
+        Assert.Fail("The expected exception was not thrown.")
     }
 }
