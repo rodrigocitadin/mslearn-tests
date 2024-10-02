@@ -54,6 +54,6 @@ public class BankAccountTests
             return;
         }
 
-        Assert.Fail("The expected exception was not thrown.")
+        Assert.Fail("The expected exception was not thrown.");
     }
 }
